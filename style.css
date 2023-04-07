@@ -1,0 +1,136 @@
+body {
+  margin-top: 20px;
+  background-color: #eee;
+}
+.project-list-table {
+  border-collapse: separate;
+  border-spacing: 0px 12px;
+}
+
+.project-list-table tr {
+  background-color: #fff;
+}
+
+.table-nowrap td,
+.table-nowrap th {
+  white-space: nowrap;
+}
+.table-borderless > :not(caption) > * > * {
+  border-bottom-width: 0;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.75rem 0.75rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+
+a {
+  color: #3b76e1;
+  text-decoration: none;
+}
+
+.badge-soft-danger {
+  color: #f56e6e !important;
+  background-color: rgba(245, 110, 110, 0.1);
+}
+.badge-soft-success {
+  color: #63ad6f !important;
+  background-color: rgba(99, 173, 111, 0.1);
+}
+
+.badge-soft-primary {
+  color: #3b76e1 !important;
+  background-color: rgba(59, 118, 225, 0.1);
+}
+
+.badge-soft-info {
+  color: #57c9eb !important;
+  background-color: rgba(87, 201, 235, 0.1);
+}
+
+.bg-soft-primary {
+  background-color: rgba(59, 118, 225, 0.25) !important;
+}
+
+td {
+  width: 300px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* th {
+  display: inline-block;
+  justify-content: space-around;
+} */
+
+th:nth-child(2) {
+  width: 50px;
+}
+th:nth-child(3) {
+  width: 150px;
+}
+th:nth-child(4) {
+  width: 100px;
+}
+th:nth-child(5) {
+  width: 100px;
+}
+th:nth-child(6) {
+  width: 50px;
+}
+
+th {
+  width: 100px;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sort {
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.addBtn {
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.container-new {
+  margin-left: 20px;
+}
+
+.submitMovie {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
